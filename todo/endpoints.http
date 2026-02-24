@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:6400
+
+### Health Endpoint
+GET {{baseUrl}}/api/v1/health
+
+### Get All Todos
+GET {{baseUrl}}/api/v1/todos
+
+### Get Todo by ID
+GET {{baseUrl}}/api/v1/todos/1
+
+### Create Todo
+POST {{baseUrl}}/api/v1/todos

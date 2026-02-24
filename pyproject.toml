@@ -1,0 +1,16 @@
+[project]
+name = "practical01"
+version = "0.1.0"
+description = "CSSE6400 Week 1 Practical"
+authors = [
+    {name = "Michael Blauberg", email = "s4588982@uq.edu.au"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+flask = "^3.1.3"
